@@ -3,8 +3,8 @@ a scrapy spider for 12306 captcha
 
 ## Requirements
 
->> python-scrapy
+    python-scrapy
 
 ## Usage
 
->> scrapy crawl railways
+  scrapy crawl railway
