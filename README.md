@@ -1,2 +1,10 @@
 # railways
-12306 captcha
+a scrapy spider for 12306 captcha
+
+## Requirements
+
+>> python-scrapy
+
+## Usage
+
+>> scrapy crawl railways
