@@ -7,4 +7,5 @@ a scrapy spider for 12306 captcha
 
 ## Usage
 
-  scrapy crawl railway
+    scrapy crawl railway
+
