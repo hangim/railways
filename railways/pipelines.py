@@ -5,9 +5,14 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
+import os
 import logging
 
 class RailwaysPipeline(object):
+    def __init__(self):
+        if not os.path.exists('img'):
+            os.makedirs('img')
+
     def process_item(self, item, spider):
         # return item
         print(item['sha1'])
